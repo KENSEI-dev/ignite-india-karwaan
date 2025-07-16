@@ -31,3 +31,17 @@ for item in arr:
 print()
 
 Q3
+
+arr = [10, 20, 30, 40]
+print("Original array:")
+for item in arr:
+    print(item, end=' ')
+print("After reversal:")
+n = len(arr)
+for i in range(n // 2):
+    temp = arr[i]
+    arr[i] = arr[n - i - 1]
+    arr[n - i - 1] = temp
+for item in arr:
+    print(item, end=' ')
+print()
