@@ -4,4 +4,5 @@ for i in range(n):
    x=int(input("enter element"))
    arr.append(x)
 for item in arr:
-   print(i,ends=' ')
+   print(item,end=' ')
+print()
