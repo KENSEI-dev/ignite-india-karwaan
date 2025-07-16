@@ -45,3 +45,12 @@ for i in range(n // 2):
 for item in arr:
     print(item, end=' ')
 print()
+
+Q4
+arr = [1, 2, 3, 2, 4, 2, 5]
+x = int(input("Enter the number to count: "))
+count = 0
+for i in arr:
+    if i == x:
+        count += 1
+print(f"{x} appears {count} times in the array.")
